@@ -1,0 +1,11 @@
+version: "1"
+rules:
+  - base: master
+    upstream: home-assistant:master
+    mergeMethod: merge
+    assignees:
+      - mLupine
+    reviewers:
+      - mLupine
+label: ":arrow_heading_down: upstream merge"
+
